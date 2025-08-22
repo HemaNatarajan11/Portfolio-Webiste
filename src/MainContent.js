@@ -68,50 +68,7 @@ const MainContent = () => {
           </div>
         </div>
       </section>
-      {/*   <section id="skills" className="section skills">
-        <h2>Skills</h2>
-        <ul className="skills-list">
-          <li>Java</li>
-          <li>Python</li>
-          <li>Mysql</li>
-          <li>HTML5</li>
-          <li>CSS</li>
-          <li>Javascript</li>
-        </ul>
-      
-        <div className="certifications-container">
-          <h3>Certifications</h3>
-          <ul className="certifications-list">
-            <li>
-              <a
-                href="/certificates/java_certificate.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Java Programming Certificate
-              </a>
-            </li>
-            <li>
-              <a
-                href="/certificates/python_certificate.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Python Certificate
-              </a>
-            </li>
-            <li>
-              <a
-                href="/certificates/frontend_certificate.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Front-End Development Certificate
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section> */}
+     
       <section id="skills" className="section skills">
         <h2>Skills & Certifications</h2>
 
@@ -177,7 +134,7 @@ const MainContent = () => {
       <section id="contact" className="section contact">
         <h2 className="contact-title">Contact Me</h2>
         <div className="contact-container">
-          {/* Left side: Contact form */}
+
           <div className="contact-form">
             <form>
               <input type="text" placeholder="Your Name" required />
@@ -187,7 +144,7 @@ const MainContent = () => {
             </form>
           </div>
 
-          {/* Right side: Contact links */}
+        
           <div className="contact-links">
             <a
               href="https://www.linkedin.com/in/hemanatarajan15/"

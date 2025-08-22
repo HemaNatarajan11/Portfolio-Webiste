@@ -41,15 +41,20 @@ const MainContent = () => {
               Showcases projects, skills, and contact information with a clean,
               modern design.
             </p>
-            <a href="https://github.com/hemanatarajan11">github.com</a>
+            <a href="https://github.com/HemaNatarajan11/Portfolio-Webiste">
+              github.com
+            </a>
           </div>
           <div className="project-card">
-            <h3>Food Delivery App</h3>
+            <h3>Testimonial Slider</h3>
             <p>
-              A Flutter app inspired by Swiggy with a modern UI and smooth
-              navigation.
+              Developed a fully responsive testimonial slider with smooth
+              transitions, navigation controls, and interactive indicators to
+              showcase client feedback effectively across devices
             </p>
-            <a href="https://github.com/hemanatarajan11">github.com</a>
+            <a href="https://github.com/HemaNatarajan11/HemaNatarajan11-customer_testimonial_carousel">
+              github.com
+            </a>
           </div>
           <div className="project-card">
             <h3>Interactive Restaurant Menu with Category Filtering</h3>
@@ -168,40 +173,41 @@ const MainContent = () => {
           </div>
         </div>
       </section>
-
       {/* Contact Section */}
       <section id="contact" className="section contact">
-        <h2>Contact</h2>
-        <p>
-          <a href="mailto:iamhemanatarajan@example.com">
-            <i className="fas fa-envelope"></i>
-          </a>
-        </p>
-        <p>
-          <a
-            href="https://www.linkedin.com/in/hemanatarajan15/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fab fa-linkedin"></i>
-          </a>
-        </p>
-        <p>
-          <a
-            href="https://github.com/HemaNatarajan11"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {" "}
-            <i className="fab fa-github"></i>
-          </a>
-        </p>
-        <p>
-          <a href="tel:+1234567890">
-            {" "}
-            <i className="fas fa-phone-alt"></i>
-          </a>
-        </p>
+        <h2 className="contact-title">Contact Me</h2>
+        <div className="contact-container">
+          {/* Left side: Contact form */}
+          <div className="contact-form">
+            <form>
+              <input type="text" placeholder="Your Name" required />
+              <input type="email" placeholder="Your Email" required />
+              <textarea placeholder="Your Message" rows="6" required></textarea>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+
+          {/* Right side: Contact links */}
+          <div className="contact-links">
+            <a
+              href="https://www.linkedin.com/in/hemanatarajan15/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a
+              href="https://github.com/HemaNatarajan11"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-github"></i> GitHub
+            </a>
+            <a href="tel:+1234567890">
+              <i className="fas fa-phone-alt"></i> Phone
+            </a>
+          </div>
+        </div>
       </section>
     </main>
   );

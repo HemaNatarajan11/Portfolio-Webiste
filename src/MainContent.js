@@ -46,25 +46,28 @@ const MainContent = () => {
             </a>
           </div>
           <div className="project-card">
-            <h3>Testimonial Slider</h3>
+            <h3>Student Registration Portal</h3>
             <p>
-              Developed a fully responsive testimonial slider with smooth
-              transitions, navigation controls, and interactive indicators to
-              showcase client feedback effectively across devices
+             Developed a web-based portal using HTML, CSS,
+JavaScript, PHP, and MySQL that allows students to
+register online with validated forms. Integrated a
+MySQL database for storing and displaying student
+details through a responsive dashboard.
             </p>
-            <a href="https://github.com/HemaNatarajan11/HemaNatarajan11-customer_testimonial_carousel">
+            <a href="https://github.com/HemaNatarajan11/student_registration">
               github.com
             </a>
           </div>
           <div className="project-card">
-            <h3>Interactive Restaurant Menu with Category Filtering</h3>
+            <h3>Interactive Restaurant Menu web application</h3>
             <p>
-              Interactive Restaurant Menu with Category Filtering – Built a
-              responsive web app that displays menu items with images, prices,
-              and descriptions. Supports category-based filtering and links each
-              item to its own details page.
+              Developed a responsive website featuring menu, about,
+profile, and contact sections. Focused on creating a
+modern and attractive layout with smooth navigation.
+Enhanced user engagement by providing an intuitive
+browsing experience.
             </p>
-            <a href="https://github.com/hemanatarajan11">github.com</a>
+            <a href="https://github.com/HemaNatarajan11/Restaurant_website">github.com</a>
           </div>
         </div>
       </section>

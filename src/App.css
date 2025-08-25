@@ -10,12 +10,10 @@ body {
   position: relative;
 }
 
-/* Smooth scrolling */
 html {
   scroll-behavior: smooth;
 }
 
-/* Section padding */
 .section {
   padding: 60px 20px;
 }

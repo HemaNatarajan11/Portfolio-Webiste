@@ -2,17 +2,14 @@ import React, { useState } from "react";
 import "./Sidebar.css";
 
 const Sidebar = () => {
-  // State to track whether sidebar is open (for small screens)
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <>
-      {/* Hamburger button for small screens */}
       <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
         ☰
       </div>
 
-      {/* Sidebar container */}
       <div className={`sidebar ${isOpen ? "open" : ""}`}>
         <h2 className="logo">Portfolio</h2>
         <nav>

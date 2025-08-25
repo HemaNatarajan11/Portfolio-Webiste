@@ -167,11 +167,6 @@ section {
 
 /* Responsive layout */
 @media (min-width: 800px) {
-  /* .section.skills {
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-  } */
   .skills-certifications-wrapper {
     flex-direction: row;
     justify-content: center;
@@ -187,35 +182,6 @@ section {
   }
 }
 
-/* .contact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px;
-  background: linear-gradient(135deg, #83d8d8 0%, #fda085 100%);
-}
-.contact a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 60px;
-  height: 60px;
-  background: rgba(255, 255, 255, 0.1);
-  border: none;
-  border-radius: 10px;
-  color: #e07777;
-  font-size: 28px;
-  transition: all 0.3s ease;
-  text-decoration: none;
-}
-.contact a:hover {
-  background: rgba(255, 255, 255, 0.3);
-  transform: scale(1.1);
-} */
-/* Contact Section */
-/* 🌐 Base styles (mobile-first) */
-/* Contact Section */
-/* Contact Section */
 .contact {
   padding: 4rem 2rem;
   background: linear-gradient(120deg, #fbc2eb, #a6c0fe);
@@ -436,7 +402,7 @@ main {
   }
 
   .contact-container {
-    grid-template-columns: 1fr 1fr; /* 2 columns on tablet/desktop */
+    grid-template-columns: 1fr 1fr;
     gap: 80px;
   }
 }
